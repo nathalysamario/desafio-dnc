@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+}
+
+#menu-superior {
+    background-color: #303030;
+    color: white;
+    padding: 150px; /* Adiciona um pouco de padding para o container */
+}
+
+#titulo-menu-superior {
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+
+#subtitulo {
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /* Define o tamanho da fonte para o subtítulo */
+    text-align: left; /* Alinha o subtítulo à esquerda */
+}
+
+#informacao{
+    background-color: #F9F9F9;
+    padding: 90px; 
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-items: center;
+
+}
+
+
+.numero{
+    
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.descricao {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#menu-historia{
+    background-color: white;
+    padding:200px;
+    padding-bottom: 400px;
+    align-items: center;
+
+}
+
+#texto{
+    font-size: 20px;
+}
+
+#titulo-texto{
+    margin-bottom: 50px;
+}
+
+.imagem {
+    float: right; /* Alinha a imagem à direita */
+    margin-left: 70px; /* Adiciona uma margem entre o texto e a imagem */
+    margin-top: -150px;
+    margin-right: -60px; 
+}
+
+#formulario{
+    background-color: #303030;
+    padding: 230px;
+    
+}
+
+#titulo-formulario{
+    margin-top: -150px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: white;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-left: 240px;
+    margin-bottom: 30px;
+    
+}
+
+button{
+    color: white;
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 370px;
+
+
+}
+
+button:hover{
+    background-color:#eaa045 ;
+    color: white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
